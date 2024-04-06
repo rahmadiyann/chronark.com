@@ -5,13 +5,9 @@ import { NextRequest, NextResponse } from "next/server";
 const redisUrl = process.env.UPSTASH_REDIS_REST_URL;
 const restToken = process.env.UPSTASH_REDIS_REST_TOKEN;
 
-
 if (!redisUrl || !restToken) {
   throw new Error("UPSTASH_REDIS_REST_URL or UPSTASH_REDIS_REST_TOKEN environment variable is not defined.");
 }
-
-console.log("redisUrl", redisUrl);
-console.log("restToken", restToken);
 
 const redisConfig = {
   url: redisUrl,
