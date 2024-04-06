@@ -6,12 +6,12 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "rahmadiyan",
-    template: "%s | rahmadiyan",
+    default: "Rahmadiyan",
+    template: "%s | Rahmadiyan",
   },
   description: "Passionate IT student skilled in Data Engineering",
   openGraph: {
-    title: "rahmadiyan",
+    title: "Rahmadiyan",
     description:
       "Passionate IT student skilled in Data Engineering",
     url: "https://rahmadiyan.my.id",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Rahmadiyan",
     card: "summary_large_image",
   },
   icons: {
