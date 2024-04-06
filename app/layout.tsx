@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "Rahmadiyan",
     template: "%s | Rahmadiyan",
   },
-  description: "Passionate IT student skilled in Data Engineering",
+  description: "Personal portfolio of a passionate IT student working to excel in Data Engineering",
   openGraph: {
     title: "Rahmadiyan",
     description:
-      "Passionate IT student skilled in Data Engineering",
+      "Personal portfolio of a passionate IT student working to excel in Data Engineering",
     url: "https://rahmadiyan.my.id",
     siteName: "rahmadiyan.my.id",
     images: [
