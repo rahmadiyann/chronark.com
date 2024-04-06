@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "rahmadiyan.my.id",
     images: [
       {
-        url: "https://rahmadiyan.my.id/favicon.png",
+        url: "https://rahmadiyan.my.id/og.png",
         width: 1920,
         height: 1080,
       },
