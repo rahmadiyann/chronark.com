@@ -1,16 +1,10 @@
 "use client";
-import { Github, Mail, Linkedin } from "lucide-react";
+import { Github, Mail, Linkedin, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
-	{
-		icon: <Linkedin size={20} />,
-		href: "https://linkedin.com/in/rahmadiyan",
-		label: "LinkedIn",
-		handle: "@rahmadiyan",
-	},
 	{
 		icon: <Mail size={20} />,
 		href: "mailto:muhammad@rahmadiyan.id",
@@ -22,6 +16,12 @@ const socials = [
 		href: "https://github.com/rahmadiyann",
 		label: "Github",
 		handle: "rahmadiyann",
+	},
+	{
+		icon: <MessageCircle size={20} />,
+		href: "https://wa.me/6281282847410",
+		label: "Click me to chat",
+		handle: "WhatsApp",
 	},
 ];
 
