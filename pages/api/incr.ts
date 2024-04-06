@@ -1,7 +1,25 @@
 import { Redis } from "@upstash/redis";
 import { NextRequest, NextResponse } from "next/server";
 
-const redis = Redis.fromEnv();
+// Manually read the environment variables
+const redisUrl = process.env.UPSTASH_REDIS_REST_URL;
+const restToken = process.env.UPSTASH_REDIS_REST_TOKEN;
+
+
+if (!redisUrl || !restToken) {
+  throw new Error("UPSTASH_REDIS_REST_URL or UPSTASH_REDIS_REST_TOKEN environment variable is not defined.");
+}
+
+console.log("redisUrl", redisUrl);
+console.log("restToken", restToken);
+
+const redisConfig = {
+  url: redisUrl,
+  token: restToken,
+};
+
+const redis = new Redis(redisConfig);
+
 export const config = {
   runtime: "edge",
 };
