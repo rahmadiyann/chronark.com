@@ -9,16 +9,16 @@ export const metadata: Metadata = {
     default: "rahmadiyan",
     template: "%s | rahmadiyan",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Passionate IT student skilled in Data Engineering",
   openGraph: {
     title: "rahmadiyan",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "Passionate IT student skilled in Data Engineering",
     url: "https://rahmadiyan.my.id",
     siteName: "rahmadiyan.my.id",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://rahmadiyan.my.id/favicon.png",
         width: 1920,
         height: 1080,
       },
