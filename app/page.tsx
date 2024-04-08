@@ -38,11 +38,11 @@ export default function Home() {
           I'm currently building{" "}
           <Link
             target="_blank"
-            href="https://whatever.vercel.app"
+            href="https://troupe.vercel.app"
             className="underline duration-500 hover:text-zinc-300"
           >
-            whatever
-          </Link> to solve the problem where you can't decide what to eat.
+            Troupe
+          </Link> to help agencies build a better customer and content manager.
         </h2>
       </div>
     </div>
