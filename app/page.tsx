@@ -42,7 +42,7 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             Troupe
-          </Link> to help agencies build a better customer and content manager.
+          </Link> to help everyone talks with their PDFs documents.
         </h2>
       </div>
     </div>
